@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+}
+
+.sidebarShadow {
+  box-shadow: 8.89px 8.89px 12.62px 0px #00000040;
+}
+.notificationShadow {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.currencyCardShadow {
+  box-shadow: 0px 0px 4.13px 0px #6d6d6d80;
+}
+.timeStatusCardShadow {
+  box-shadow: 0px 0px 4px 0px #6d6d6d80;
+}
+.homeCardShadow {
+  box-shadow: 0px 0px 15.1px -3px #00000040;
+}
